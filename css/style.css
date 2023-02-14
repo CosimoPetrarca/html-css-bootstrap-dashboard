@@ -6,11 +6,41 @@ header{
 main{
     height: calc(100vh - 4.375rem);
     background-color: white;
+    overflow-y: auto;
 }
+
+
+/* Aside */
 
 aside{
     width: auto;
     background-color: black;
     color: white;
+    display: flex;
+    flex-direction: column;
+    padding: 20px
 }
 
+.text{
+    display: none;
+}
+
+
+.ms-menu ul{
+    list-style-type: none;
+}
+.ms-underline{
+    text-decoration: none;
+}
+
+.profile{
+    margin-top: auto;
+}
+
+@media screen and (min-width:992px) {
+
+    .text{
+        display: initial;
+    }
+    
+}
