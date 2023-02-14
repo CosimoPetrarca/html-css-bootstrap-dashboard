@@ -1,0 +1,16 @@
+header{
+    background-color: #f6f6f6;
+    height: 4.375rem;
+}
+
+main{
+    height: calc(100vh - 4.375rem);
+    background-color: white;
+}
+
+aside{
+    width: auto;
+    background-color: black;
+    color: white;
+}
+
