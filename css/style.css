@@ -23,5 +23,14 @@ main {
 
 aside {
     background-color: #051e34;
+    
+}
+
+.ms-main-top{
+    background-color: #1b72e8;
+}
+
+.ms-main-bottom{
+    background-color: white;
 }
 
