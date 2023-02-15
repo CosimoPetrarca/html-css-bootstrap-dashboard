@@ -1,7 +1,10 @@
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
 /*--------------
      Header 
 ----------------*/
-
 
 header{
     background-color: #f6f6f6;
@@ -12,7 +15,7 @@ header{
     background-color: #e5e5e5;
 }
 
-.img_header02{
+.img_header_logo{
     width: 2.5rem;
     height: 2.5rem;
 }
