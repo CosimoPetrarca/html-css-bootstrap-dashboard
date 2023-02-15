@@ -20,10 +20,13 @@
 
 <body>
     <!-- header -->
-    <header class="d-flex align-items-center">
+    <header class="d-flex container-fluid">
         <nav class="navbar navbar-expand-lg bg-body-tertiary bg-white flex-grow-1 py-1">
             <div class="container-fluid">
-                <a class="navbar-brand" href="#">Logo</a>
+                <a class="navbar-brand" href="#">
+                    <img class="d-none d-lg-block " src="img/logo.svg" alt="">
+                    <img class="img_header02 d-md-block d-lg-none" src="img/mobile-logo.png" alt="">
+                </a>
                 <form id="ricerca" class="d-flex flex-grow-1 rounded" role="search">
                     <button class="btn btn-outline-dark border-0" type="submit">
                         <i class="fa-solid fa-magnifying-glass"></i>
@@ -34,18 +37,30 @@
                 <div class="collapse navbar-collapse flex-grow-0">
                     <ul class="navbar-nav mb-2 mb-lg-0">
                         <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#">font1</a>
+                            <a class="nav-link active" aria-current="page" href="#"><i
+                                class="fa-solid fa-bars"></i></a></li></a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">font2</a>
+                            <a class="nav-link" href="#"><i
+                                class="fa-solid fa-circle-question"></i></a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">font3</a>
+                            <a class="nav-link" href="#"><i
+                                class="fa-solid fa-ellipsis-vertical"></i></a>
                         </li>
                     </ul>
                 </div>
                 <div class="px-2">
-                    <a href="#" class="text-decoration-none">Campanella</a>
+                    <div class="dropdown">
+                        <button class="btn btn-warning dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            <i class="fa-solid fa-bell"></i>
+                        </button>
+                        <ul class="dropdown-menu">
+                          <li><a class="dropdown-item" href="#">Action</a></li>
+                          <li><a class="dropdown-item" href="#">Another action</a></li>
+                          <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                      </div>
                 </div>
             </div>
         </nav>
@@ -181,7 +196,7 @@
                                   </div>
                             </div>
                         </div>
-                        <div class="card" style="width: 18rem;">
+                        <div class="card">
                             <img src="img/stats.jpeg" class="card-img-top" alt="tabella">
                             <div class="card-body">
                               <h5 class="card-title">Utenti attivi</h5>
