@@ -42,3 +42,7 @@ aside {
     background-color: white;
 }
 
+.effect:hover{
+    background-color: grey;
+    
+}
