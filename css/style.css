@@ -30,7 +30,8 @@ main {
 
 
 aside {
-    background-color: #051e34;
+    background-image: url(../img/sidebar-bg.png);
+    background-color: black;
     
 }
 
@@ -39,7 +40,7 @@ aside {
 }
 
 .ms-main-bottom{
-    background-color: white;
+    background-color: #f8f9fa;
 }
 
 .effect:hover{
